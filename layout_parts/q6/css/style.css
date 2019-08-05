@@ -17,15 +17,17 @@
   display: inline-block;
 }
 
-.q6__box__text {
+/* .q6__box__text {
   background-color: #e6f2ff;
   padding: 10px 0;
-}
+} */
 
 .margin {
   width: 90px;
   text-align: center;
   margin: 0 auto;
+  background-color: #e6f2ff;
+  padding: 10px 0;
 }
 
 .is-table{

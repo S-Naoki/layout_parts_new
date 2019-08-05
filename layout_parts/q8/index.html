@@ -30,28 +30,22 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn is-small">
+          <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div class="q8__btn is-common">common</div>
-            <div class="q8__btn is-error">error</div>
-            <div class="q8__btn is-disabled">disabled</div>
-            <div class="q8__btn is-shadow">shadow</div>
-          </div>
-
-          <div class="q8 q8--btn is-middle">
+            <div class="q8--btn--items is-small is-common">common</div>
+            <div class="q8--btn--items is-small is-error">error</div>
+            <div class="q8--btn--items is-small is-disabled">disabled</div>
+            <div class="q8--btn--items is-small is-shadow">shadow</div>
             <p class="q8__title">ー middle ー</p>
-            <div class="q8__btn is-common">common</div>
-            <div class="q8__btn is-error">error</div>
-            <div class="q8__btn is-disabled">disabled</div>
-            <div class="q8__btn is-shadow">shadow</div>
-          </div>
-
-          <div class="q8 q8--btn is-large">
+            <div class="q8--btn--items is-middle is-common">common</div>
+            <div class="q8--btn--items is-middle is-error">error</div>
+            <div class="q8--btn--items is-middle is-disabled">disabled</div>
+            <div class="q8--btn--items is-middle is-shadow">shadow</div>
             <p class="q8__title">ー large ー</p>
-            <div class="q8__btn is-common">common</div>
-            <div class="q8__btn is-error">error</div>
-            <div class="q8__btn is-disabled">disabled</div>
-            <div class="q8__btn is-shadow">shadow</div>
+            <div class="q8--btn--items is-large is-common">common</div>
+            <div class="q8--btn--items is-large is-error">error</div>
+            <div class="q8--btn--items is-large is-disabled">disabled</div>
+            <div class="q8--btn--items is-large is-shadow">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -109,7 +103,7 @@
                     <li class="clearfix">
                       <p class="q8__main__items__title">名前<span class="is-required">*</span></p>
                       <div class="q8__main__items__content">
-                        <input class="q8__input q8__input--init" type="text" name="name">
+                        <input class="q8__input q8__input--init" type="text" name="name" required>
                       </div>
                     </li>
                     <li class="clearfix">
